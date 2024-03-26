@@ -3,8 +3,8 @@
 <head>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -22,11 +22,11 @@
             <img src="./assets/img/logo.png" alt="logo_pic">
             <nav class="menu_header" id="menu_header">
                <ul class="header_list" id="menu_header">
-                  <li class="header_item"><a href='#'>Features</a></li>
-                  <li class="header_item"><a href='#'>About</a></li>
-                  <li class="header_item"><a href='#'>Pricing</a></li>
-                  <li class="header_item"><a href='#'>Reviews</a></li>
-                  <li class="header_item"><a href='#'>Contact</a></li>
+                  <li class="header_item"><a href='#features'>Features</a></li>
+                  <li class="header_item"><a href='#about'>About</a></li>
+                  <li class="header_item"><a href='#pricing'>Pricing</a></li>
+                  <li class="header_item"><a href='#reviews'>Reviews</a></li>
+                  <li class="header_item"><a href='#contact'>Contact</a></li>
                </ul>
             </nav>
    
@@ -41,7 +41,7 @@
 
    
 
-   <section class="section_banner">
+   <section class="section_banner" id="features">
       <div class="container">
          <div class="field_banner">
             <div class="left_side">
@@ -97,15 +97,15 @@
 
    </section>
 
-   <section class="section_tabs">
+   <section class="section_tabs" id="about">
       <div class="container">
          <div class="tabs_box">
             <div class="menu_tabs">
                <input type="radio" name="tab1" id="tab1" checked>
                <label for="tab1">TAB 1</label>
-               <input type="radio" name="tab2" id="tab2">
+               <input type="radio" name="tab2" id="tab2" disabled>
                <label for="tab2">TAB 2</label>
-               <input type="radio" name="tab3" id="tab3">
+               <input type="radio" name="tab3" id="tab3" disabled>
                <label for="tab3">TAB 3</label> 
             </div>
             
@@ -165,7 +165,7 @@
       </div>
    </section>
 
-   <section class="section_price">
+   <section class="section_price" id="pricing">
       <div class="container">
          <div class="price_container">
             <h2 class="title title_price">pricing options</h2>
@@ -213,7 +213,7 @@
       </div>
    </section>
 
-   <section class="section_customers">
+   <section class="section_customers" id="reviews">
       <div class="container">
          <div class="customer_container">
             <h2 class="title title_customers">what our customers are saying</h2>
@@ -275,9 +275,65 @@
                         </div>
                         
                      </div>
+                  </div>      
+                  <div class="item_customer swiper-slide">
+                     <div class="text_customer">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                     </div>
+                     
+                     <div class="customer">
+                        <img src="./assets/img/cust1.png" alt="customer1">
+                        <div class="about_customer">
+                           <p class="name_customer">Davis Rhiel Madsen</p>
+                           <p class="profession_customer">Manager</p>
+                        </div>
+                        
+                     </div>
+                     
+                  </div>
+      
+                  <div class="item_customer swiper-slide">
+                     <div class="text_customer">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                     </div>
+                     
+                     <div class="customer">
+                        <img src="./assets/img/cust2.png" alt="customer1">
+                        <div class="about_customer">
+                           <p class="name_customer">Davis Rhiel Madsen</p>
+                           <p class="profession_customer">Manager</p>
+                        </div>
+                        
+                     </div>                
+                  </div>
+   
+                  <div class="item_customer swiper-slide">
+                     <div class="text_customer">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                     </div>
+                     
+                     <div class="customer">
+                        <img src="./assets/img/cust3.png" alt="customer1">
+                        <div class="about_customer">
+                           <p class="name_customer">Davis Rhiel Madsen</p>
+                           <p class="profession_customer">Manager</p>
+                        </div>
+                        
+                     </div>
                   </div>                   
               
                </div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
                
             </div>
 
@@ -301,7 +357,7 @@
    </section>
 
 
-   <section class="section_contacts">
+   <section class="section_contacts" id="contact">
       <div class="container contacts">
          <div class="contacts_container">
             <h2 class="title title_contacts">Contact us</h2>
@@ -339,7 +395,7 @@
         
       </div>
    </footer>
-<script defer src="./script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+   <script type="module" defer src="./script.js"></script>
+
 </body>
 </html>

@@ -1,16 +1,10 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url('/fonts/raleway/Raleway-VariableFont_wght.ttf');
-    font-family: 'Open Sans';
-    src: url('/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
-}
-
 *{ 
     font-size:100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #212121;
+    scroll-behavior: smooth;
 }
 .container{
     max-width: 1400px;
@@ -356,7 +350,6 @@
     justify-content: space-between;
 }
 .social_text{
-    
     display: flex;
     flex-direction: column;
 }
@@ -380,15 +373,22 @@
     flex-wrap: wrap;
 }
 .social_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    background: transparent;
+    transition: all 0.5s ease-in-out 0s;
 }
 .social_item:hover{
-transform: scale(0.8);
+    opacity: 1;
+    background: #AB4949;
+    transform: scale(1.1);
 }
 .social_item img{
-    max-width: 64px;
-    max-height: 64px;
+    max-width: 50px;
 }
 @media only screen and (max-width:798px){
     .social_item img{
@@ -424,6 +424,7 @@ transform: scale(0.8);
 .tabs_box{
     display: flex;
     width: 100%;
+    gap: 20px;
     justify-content: space-between;
 }
 .menu_tabs {
@@ -783,9 +784,6 @@ transform: scale(0.8);
 .swiper-container{
     width: 100%;
 }
-.item_customer{
-    max-width: 298px;
-}
 .text_customer{
     padding-block: 14px;
     border-radius: 10px;
@@ -834,6 +832,7 @@ transform: scale(0.8);
    .swiper{
     width: 100%;
    }
+  
    @media only screen and (max-width:1132px){
     .text_customer{
         max-width: 250px;
@@ -851,7 +850,12 @@ transform: scale(0.8);
     }
     .content_customers{
         padding-top: 27px;
-    }
+    }  
+    .swiper > .swiper-button-next,
+    .swiper > .swiper-button-prev{
+        display: none;
+       }
+
 }
 @media  only screen and (max-width:350px){
   .text_line{
@@ -1022,20 +1026,5 @@ transform: scale(0.8);
         flex-wrap: wrap;
     }
 }
-/* 
 
-@media only screen and (max-width:350px){
-    .footer{
-        padding:35px 16px 45px;
-    }
-    .list_links img{
-        max-width: 26px;
-        max-height: 26px;
-    }
- 
-    .footer p{
-        padding: 45px 0 0 0;
-        text-align: center;
-    }
-} */
 /*END STYLE FOOTER*/
