@@ -3,15 +3,13 @@
 <head>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,9 +46,9 @@
          <div class="field_banner">
             <div class="left_side">
                <div class="logo_banner">
-                  <img src="./assets/img/logo.png" alt="logo">
+                  <p>AX<span>IT</span></p>
                </div>
-               <div class="title_banner">
+               <div class="title title_banner">
                   MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
                </div>
                <div class="line_banner"></div>
@@ -60,19 +58,23 @@
             </div>
             <div class="right_side">
                <div class="card_banner">
-                  <h3 class="title_card">Try Your <span>FREE</span> Trial Today</h3>
-                  <input type="text" class='registration_field' placeholder="Name" name="name">
-                  <input type="text" class='registration_field' placeholder="Email" name="email">
-                  <input type="text" class='registration_field' placeholder="Password" name="password">
-               </div>
-               <button class="btn_card">Get Started</button>
+                  <div class="card_banner_container">
+                     <h3 class="title_card">Try Your <span>FREE</span> Trial Today</h3>
+                     <div class="form_container">
+                        <input type="text" class='registration_field' placeholder="Name" name="name">
+                        <input type="text" class='registration_field' placeholder="Email" name="email">
+                        <input type="text" class='registration_field' placeholder="Password" name="password">
+                     </div>
+                  </div>
+                  <button class="btn_card">Get Started</button>
+               </div> 
             </div>
          </div>
 
       </div>
    </section>
 
-   <!-- <section class="section_social">
+   <section class="section_social">
       <div class="container">
          <div class="content_social">
             <div class="social_text">
@@ -93,236 +95,251 @@
 
       </div>
 
-   </section> -->
+   </section>
 
-   <!-- <section class="section_tabs">
+   <section class="section_tabs">
       <div class="container">
-         <div class="menu_tabs">
-            <input type="radio" name="tab1" id="tab1" checked>
-            <label for="tab1">TAB1</label>
-            <input type="radio" name="tab2" id="tab2">
-            <label for="tab2">TAB2</label>
-            <input type="radio" name="tab3" id="tab3">
-            <label for="tab3">TAB3</label>
+         <div class="tabs_box">
+            <div class="menu_tabs">
+               <input type="radio" name="tab1" id="tab1" checked>
+               <label for="tab1">TAB 1</label>
+               <input type="radio" name="tab2" id="tab2">
+               <label for="tab2">TAB 2</label>
+               <input type="radio" name="tab3" id="tab3">
+               <label for="tab3">TAB 3</label> 
+            </div>
             
-
             <div  class="content_tabs">
                <div class="content_field">
                   <div class="title_tabs">Tabs with soft transitioning effect.</div>
-                  <div class="first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                              bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                              penatibus et magnis dis parturient montes.</div>
-                  <div class="second_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</div>              
+                  <div class="text_tabs">
+                     <p class="first_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                        penatibus et magnis dis parturient montes.</p>
+                     <p class="second_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                     </p>
+                  </div>
                   <button class="btn_tabs">Download</button>
                </div>
-               <div class="pic_tabs">
-                  <img src="./assets/img/image_tabs.png" alt="picture">
-               </div>
-            </div>  
+               
+               <img src="./assets/img/image_tabs.png" alt="picture">
+            </div> 
          </div>
          
       </div>
-   </section> -->
-   <!-- <section class="section_awesome">
+   </section>
+   <section class="section_awesome">
       <div class="container">
-         <h2 class="title_awesome">WHY THIS IS AWESOME</h2>
-         <div class="line"></div>
-         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         <div class="content_awesome">
-            <div class="box_awesome">
-               <img src="./assets/img/icon1.png" alt="icon1">
-               <div class="title_box">Thoughtful Design</div>
-               <div class="text_box">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
+         <div class="awesome_box">
+            <h2 class="title title_awesome">WHY THIS IS AWESOME</h2>
+            <div class="line"></div>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="content_awesome">
+               <div class="box_awesome">
+                  <img src="./assets/img/icon1.png" alt="icon1">
+                  <div class="title_box">Thoughtful Design</div>
+                  <div class="text_box">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                     elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
 
-            </div>
-            <div class="box_awesome">
-               <img src="./assets/img/icon2.png" alt="icon2">
-               <div class="title_box">Thoughtful Design</div>
-               <div class="text_box">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
+               </div>
+               <div class="box_awesome">
+                  <img src="./assets/img/icon2.png" alt="icon2">
+                  <div class="title_box">Thoughtful Design</div>
+                  <div class="text_box">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                     elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
 
-            </div>
-            <div class="box_awesome">
-               <img src="./assets/img/icon3.png" alt="icon3">
-               <div class="title_box">Thoughtful Design</div>
-               <div class="text_box">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
+               </div>
+               <div class="box_awesome">
+                  <img src="./assets/img/icon3.png" alt="icon3">
+                  <div class="title_box">Thoughtful Design</div>
+                  <div class="text_box">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                     elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
 
-            </div>
+               </div>
+         </div>
+         
 
          </div>
       </div>
-   </section> -->
-   <!-- <section class="section_price">
+   </section>
+
+   <section class="section_price">
       <div class="container">
-         <h2 class="title_price">pricing options</h2>
-         <div class="line"></div>
-         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         <div class="price_cards">
-            <div class="card">
-               <div class="card_title">Basic</div>
-               <div class="card_price">$10</div>
-               <div class="card_text">Free for life</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-            </div>
-
-            <div class="card">
-               <div class="card_title">Optima</div>
-               <div class="card_price">$20</div>
-               <div class="card_text">Free for life</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-            </div>
-
-            <div class="card">
-               <div class="card_title">Pro</div>
-               <div class="card_price">$30</div>
-               <div class="card_text">Free for life</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-               <div class="card_subtitle">1 gb of space</div>
-            </div>
-         </div>
-      </div>
-   </section> -->
-
-   <!-- <section class="section_customers">
-      <div class="container">
-         <h2 class="title_customers">what our customers are saying</h2>
-         <div class="line"></div>
-         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         <div class="swiper-container">
-            <div class="content_customers swiper-wrapper">
-               <div class="item_customer swiper-slide">
-                  <div class="text_customer">Lorem ipsum dolor sit amet, 
-                     consectetur adipisicing elit. Doloribus 
-                     accusamus expedita repellat similique 
-                     odio aspernatur ex, architecto eaque 
-                     quo suscipit.
-                  </div>
-                  <div class="triangle"></div>
-                  
-                  <div class="customer">
-                     <img src="./assets/img/cust1.png" alt="customer1">
-                     <div class="about_customer">
-                        <div class="name_customer">Davis Rhiel Madsen</div>
-                        <div class="profession_customer">Manager</div>
-                     </div>
-                     
-                  </div>
-                  
+         <div class="price_container">
+            <h2 class="title title_price">pricing options</h2>
+            <div class="line"></div>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="price_cards">
+               <div class="card">
+                  <div class="card_title">Basic</div>
+                  <div class="card_price">$10</div>
+                  <div class="card_text">Free for life</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
                </div>
    
-               <div class="item_customer swiper-slide">
-                  <div class="text_customer">Lorem ipsum dolor sit amet, 
-                     consectetur adipisicing elit. Doloribus 
-                     accusamus expedita repellat similique 
-                     odio aspernatur ex, architecto eaque 
-                     quo suscipit.
-                  </div>
-                  <div class="triangle"></div>
-                  
-                  <div class="customer">
-                     <img src="./assets/img/cust2.png" alt="customer1">
-                     <div class="about_customer">
-                        <div class="name_customer">Davis Rhiel Madsen</div>
-                        <div class="profession_customer">Manager</div>
-                     </div>
-                     
-                  </div>                
+               <div class="card">
+                  <div class="card_title">Optima</div>
+                  <div class="card_price">$20</div>
+                  <div class="card_text">Free for life</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
                </div>
-
-               <div class="item_customer swiper-slide">
-                  <div class="text_customer">Lorem ipsum dolor sit amet, 
-                     consectetur adipisicing elit. Doloribus 
-                     accusamus expedita repellat similique 
-                     odio aspernatur ex, architecto eaque 
-                     quo suscipit.
-                  </div>
-                  <div class="triangle"></div>
-                  
-                  <div class="customer">
-                     <img src="./assets/img/cust3.png" alt="customer1">
-                     <div class="about_customer">
-                        <div class="name_customer">Davis Rhiel Madsen</div>
-                        <div class="profession_customer">Manager</div>
-                     </div>
-                     
-                  </div>
+   
+               <div class="card">
+                  <div class="card_title">Pro</div>
+                  <div class="card_price">$30</div>
+                  <div class="card_text">Free for life</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
+                  <div class="card_subtitle">1 gb of space</div>
                </div>
-               <div class="swiper-pagination"></div>
-                 
-           
-            </div>
-            
-         </div>
-         
-                
-
-      </div>
-
-   </section> -->
-
-
-   <!-- <section class="section_design">
-      <div class="container">
-         <h2 class="title_design">STYLISH AXURE DESIGN</h2>
-         <div class="line white"></div>
-         <div class="text_design">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
-         <button class="btn_design">Download</button>
-      </div>
-   </section> -->
-
-
-   <!-- <section class="section_contacts">
-      <div class="container contacts">
-         <h2 class="title_contacts">Contact us</h2>
-         <div class="line"></div>
-         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         <div class="content_contacts">
-            <div class="data_contacts">
-               <input type="text" class="text_field" name="name" id="name" placeholder="Name">
-               <input type="text" class="text_field" name="email" id="email" placeholder="Email">
-               <input type="text" class="text_field" name="password" id="password" placeholder="Password">
-            </div>
-            <div class="message_contacts">
-               <input type="text" class="text_message" name="message" id="message" placeholder="Message">
             </div>
          </div>
-         <button class="btn_contacts">Send Message</button>
-      </div>
-   </section> -->
-
-   <!-- <footer class="footer">
-      <div class="container">
-         <ul class="list_links">
-            <li class="links_item"><img src="./assets/img/links_icons/facebook_icon.png" alt="facebook_icon"></li>
-            <li class="links_item"><img src="./assets/img/links_icons/twitter_icon.png" alt="twitter_icon"></li>
-            <li class="links_item"><img src="./assets/img/links_icons/linkedin_icon.png" alt="linkedin_icon"></li>
-            <li class="links_item"><img src="./assets/img/links_icons/pinterest_icon.png" alt="pinterest_icon"></li>
-            <li class="links_item"><img src="./assets/img/links_icons/instagram_icon.png" alt="instagram_icon"></li>
-            <li class="links_item"><img src="./assets/img/links_icons/github_icon.png" alt="github_icon"></li>
-            <li class="links_item"><img src="./assets/img/links_icons/rss_icon.png" alt="rss_icon"></li>
-         </ul>
-         <p>© 2015 Axure Themes</p>
         
       </div>
-   </footer> -->
+   </section>
+
+   <section class="section_customers">
+      <div class="container">
+         <div class="customer_container">
+            <h2 class="title title_customers">what our customers are saying</h2>
+            <div class="line"></div>
+            <p class="text text_line">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+            <div class="swiper">
+               <div class="content_customers swiper-wrapper">
+                  <div class="item_customer swiper-slide">
+                     <div class="text_customer">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                     </div>
+                     
+                     <div class="customer">
+                        <img src="./assets/img/cust1.png" alt="customer1">
+                        <div class="about_customer">
+                           <p class="name_customer">Davis Rhiel Madsen</p>
+                           <p class="profession_customer">Manager</p>
+                        </div>
+                        
+                     </div>
+                     
+                  </div>
+      
+                  <div class="item_customer swiper-slide">
+                     <div class="text_customer">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                     </div>
+                     
+                     <div class="customer">
+                        <img src="./assets/img/cust2.png" alt="customer1">
+                        <div class="about_customer">
+                           <p class="name_customer">Davis Rhiel Madsen</p>
+                           <p class="profession_customer">Manager</p>
+                        </div>
+                        
+                     </div>                
+                  </div>
+   
+                  <div class="item_customer swiper-slide">
+                     <div class="text_customer">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                     </div>
+                     
+                     <div class="customer">
+                        <img src="./assets/img/cust3.png" alt="customer1">
+                        <div class="about_customer">
+                           <p class="name_customer">Davis Rhiel Madsen</p>
+                           <p class="profession_customer">Manager</p>
+                        </div>
+                        
+                     </div>
+                  </div>                   
+              
+               </div>
+               
+            </div>
+
+         </div>
+         
+      </div>
+
+   </section>
+
+
+   <section class="section_design">
+      <div class="container">
+         <div class="design_container">
+            <h2 class="title title_design">STYLISH AXURE DESIGN</h2>
+            <div class="line white"></div>
+            <div class="text text_design">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
+            <button class="btn_design btn_banner">Download</button>
+         </div>
+        
+      </div>
+   </section>
+
+
+   <section class="section_contacts">
+      <div class="container contacts">
+         <div class="contacts_container">
+            <h2 class="title title_contacts">Contact us</h2>
+            <div class="line"></div>
+            <p class="text text_contacts">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="content_contacts">
+               <div class="data_contacts">
+                  <input type="text" class="registration_field text_field" name="name" id="name" placeholder="Name">
+                  <input type="text" class="registration_field text_field" name="email" id="email" placeholder="Email">
+                  <input type="text" class="registration_field text_field" name="password" id="password" placeholder="Password">
+               </div>
+               <textarea type="text" class="text_message" name="message" id="message" placeholder="Message"></textarea>
+            </div>
+            <button class="btn_tabs btn_contacts">Send Message</button>
+         </div>
+         
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer_container">
+            <ul class="list_links">
+               <li class="links_item"><img src="./assets/img/links_icons/facebook_icon.png" alt="facebook_icon"></li>
+               <li class="links_item"><img src="./assets/img/links_icons/twitter_icon.png" alt="twitter_icon"></li>
+               <li class="links_item"><img src="./assets/img/links_icons/linkedin_icon.png" alt="linkedin_icon"></li>
+               <li class="links_item"><img src="./assets/img/links_icons/pinterest_icon.png" alt="pinterest_icon"></li>
+               <li class="links_item"><img src="./assets/img/links_icons/instagram_icon.png" alt="instagram_icon"></li>
+               <li class="links_item"><img src="./assets/img/links_icons/github_icon.png" alt="github_icon"></li>
+               <li class="links_item"><img src="./assets/img/links_icons/rss_icon.png" alt="rss_icon"></li>
+            </ul>
+            <p>© 2015 Axure Themes</p>
+         </div>
+        
+        
+      </div>
+   </footer>
 <script defer src="./script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 </html>
